@@ -107,7 +107,7 @@ public class Practice10Test {
     public void should_teacher_introduce_itself_with_which_classes_it_teaches() throws Exception {
         Klass klass3 = new Klass(3);
         Teacher tom = new Teacher(1, "Tom", 21, Sets.newHashSet(klass2, klass3));
-        assertThat(tom.introduce()).isEqualTo("My name is Tom. I am 21 years old. I am a Teacher. I teach Class 2, 3.");
+        assertThat(tom.introduce()).isEqualTo("My name is Tom. I am 21 years old. I am a Teacher. I teach Class 3, 2.");
     }
 
     @Test
